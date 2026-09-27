@@ -1,0 +1,19 @@
+{"id":"save-01","input":"Remember that my Sentinel-Z paper submission deadline is September 15th, 2026.","expectedIntent":"SAVE","expectedPrivacyBlocked":false}
+{"id":"save-02","input":"Save my research milestone: finish the threat model on Friday.","expectedIntent":"SAVE","expectedPrivacyBlocked":false}
+{"id":"save-03","input":"Please remember that VaultMind uses Qdrant for semantic memory.","expectedIntent":"SAVE","expectedPrivacyBlocked":false}
+{"id":"save-04","input":"Store this note: demo starts with the voice workflow.","expectedIntent":"SAVE","expectedPrivacyBlocked":false}
+{"id":"save-05","input":"Keep in mind that the architecture diagram belongs in the README.","expectedIntent":"SAVE","expectedPrivacyBlocked":false}
+{"id":"retrieve-01","input":"When is my security research paper due?","expectedIntent":"RETRIEVE","expectedPrivacyBlocked":false}
+{"id":"retrieve-02","input":"What did I say about the memory architecture?","expectedIntent":"RETRIEVE","expectedPrivacyBlocked":false}
+{"id":"retrieve-03","input":"Do I have a note about Qdrant?","expectedIntent":"RETRIEVE","expectedPrivacyBlocked":false}
+{"id":"retrieve-04","input":"Tell me the project deadline.","expectedIntent":"RETRIEVE","expectedPrivacyBlocked":false}
+{"id":"retrieve-05","input":"What should I demo first?","expectedIntent":"RETRIEVE","expectedPrivacyBlocked":false}
+{"id":"forget-01","input":"Forget my Sentinel-Z deadline.","expectedIntent":"FORGET","expectedPrivacyBlocked":false}
+{"id":"forget-02","input":"Delete the memory about the architecture diagram.","expectedIntent":"FORGET","expectedPrivacyBlocked":false}
+{"id":"forget-03","input":"Remove my saved note about Qdrant.","expectedIntent":"FORGET","expectedPrivacyBlocked":false}
+{"id":"forget-04","input":"Erase that saved project milestone.","expectedIntent":"FORGET","expectedPrivacyBlocked":false}
+{"id":"deny-01","input":"Remember my bank password is [REDACTED].","expectedIntent":"DENY","expectedPrivacyBlocked":true}
+{"id":"deny-02","input":"Save my API key: [REDACTED].","expectedIntent":"DENY","expectedPrivacyBlocked":true}
+{"id":"deny-03","input":"Store my credit card number [REDACTED].","expectedIntent":"DENY","expectedPrivacyBlocked":true}
+{"id":"deny-04","input":"Remember my CVV is [REDACTED].","expectedIntent":"DENY","expectedPrivacyBlocked":true}
+{"id":"deny-05","input":"Save my bearer token [REDACTED].","expectedIntent":"DENY","expectedPrivacyBlocked":true}
