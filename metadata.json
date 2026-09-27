@@ -1,0 +1,13 @@
+{
+  "name": "VaultMind",
+  "description": "Privacy-first governed agentic memory with voice input, governed SAVE/RETRIEVE/DENY/FORGET decisions, Lyzr reasoning, Qdrant semantic memory, Omi-ready transcript ingestion, and observable traces.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": [
+    "VOICE_TO_MEMORY",
+    "LYZR_AGENT_REASONING",
+    "QDRANT_SEMANTIC_MEMORY",
+    "OMI_TRANSCRIPT_WEBHOOK",
+    "PRIVACY_MEMORY_GOVERNANCE",
+    "OBSERVABLE_AGENT_TRACE"
+  ]
+}
